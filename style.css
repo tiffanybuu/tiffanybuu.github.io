@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://media.giphy.com/media/2itj7nkDA1zLW/giphy.gif");
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: 100%;
+  background-size: cover;
+
+}
+body::after {
+  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+}
+
+.header{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  width: center;
+  height: 200px;
+  top:200px;
+  z-index:99999999999999;
+  border-style: double;
+}
+#title{
+    position: static;
+    float:center;
+    margin: center;
+    margin-top:25px;
+
+    text-transform:uppercase;
+    text-align:center;
+    font-size:35px;
+    letter-spacing:1px;
+    font-weight:bold;
+    z-index:9999999999;
+    font-family: 'Josefin Slab', serif;
+
+}
+.linksRight {
+
+  float:center;
+  margin-left:20px;
+  margin-right: 10px;
+  text-align:right;
+  font-size:18px;
+  letter-spacing:1px;
+  z-index:9999999999;
+  font-family: 'Josefin Slab', serif;
+
+}
+#git {
+  margin-top: -5px;
+}
+#fb {
+  margin-top: -40px;
+}
+#number {
+  margin-top: -42px;
+  font-size: 15px;
+}
+.linksLeft {
+  position: absolute;
+  float:center;
+  margin-left:10px;
+  margin-right: 850px;
+  text-align:left;
+  font-size:15px;
+  letter-spacing:1px;
+  z-index:9999999999;
+  font-family: 'Josefin Slab', serif;
+}
+
+/* #location {
+  margin-top: -40px;
+} */
+#major {
+  margin-top: -45px;
+}
+#school {
+  margin-top: 10px;
+  white-space: nowrap;
+  font-size: 14px;
+
+}
+#class {
+  margin-top: 9px;
+}
+#paragraph {
+  font-family: 'Josefin Slab', serif;
+  margin-top: 15px;
+  font-size: 18px;
+}
+.involvements {
+  font-family: 'Josefin Slab', serif;
+  font-size: 12px;
+  margin-top: 0px;
+}
+#text1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 12px;
+  margin-top: -14px;
+}
+#text2 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 12px;
+  margin-top: -10px;
+
+}
+
+
+}
