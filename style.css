@@ -69,6 +69,33 @@ body {
   /* background-image: url("img/me.JPG"); */
 }
 
+.about h1 {
+  color: #935100;
+  font-size: 60px;
+}
+
+.about h1.display-1::after {
+  content: "";
+  display: block;
+  background: #D3B799;
+  width: 185px;
+  height: 4px;
+  margin-top: 10px;
+}
+
+.about h3 {
+  color: #935100;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-wiehgt: 400;
+}
+
+.custom-font-title {
+  font-family: 'Roboto';
+  font-weight: 400;
+
+}
+
 
 
 
