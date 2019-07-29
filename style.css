@@ -17,8 +17,8 @@ body {
   text-decoration: none;
   background-color:#F5E5D4;
   color: #935100;
-
 }
+
 .navbar-name {
   background-color: #D3B799;
   padding: 10px 10px;
@@ -88,6 +88,7 @@ body {
   font-size: 16px;
   font-family: 'Montserrat';
   font-weight: 400;
+  margin-top: 40px;
 }
 
 .custom-font-title {
@@ -100,9 +101,8 @@ body {
 .project h1 {
   color: #935100;
   font-size: 60px;
+  margin-top: 20px;
 }
-
-
 .project h1.display-1::after {
   content: "";
   display: block;
@@ -111,7 +111,9 @@ body {
   height: 4px;
   margin-top: 10px;
 }
-
+.blog {
+  margin-top: -100px;
+}
 .btn-git {
   color: #935100;
   background-color: transparent;
@@ -123,5 +125,21 @@ body {
   background: #D3B799;
   border-color: #D3B799;
 }
+
+
+.creative h1 {
+  color: #935100;
+  font-size: 60px;
+}
+
+.creative h1.display-1::after {
+  content: "";
+  display: block;
+  background: #D3B799;
+  width: 275px;
+  height: 4px;
+  margin-top: 10px;
+}
+
 
 
