@@ -94,8 +94,8 @@ body {
 
 .picture {
   vertical-align: middle;
-  /* width: 200px;
-  height: 500px; */
+  /* width: 200px; */
+  /* height: 300px;  */
   max-height: 50%;
   /* background-image: url("img/me.JPG"); */
 }
@@ -210,3 +210,8 @@ body {
   margin-top: 5px;
 }
 
+
+/* FOOTER */
+/* #footer {
+  background: 
+} */
