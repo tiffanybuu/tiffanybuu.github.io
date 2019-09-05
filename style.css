@@ -6,23 +6,36 @@ body {
   background-size: cover; */
   /* background-color: #cccccc; */
   /* background-color: #E8BE94; */
-  background-color: #F5E5D4;
+  /* background-color: #F5E5D4; */
+  background-color: #FEFCFB; 
+  /* background-color: #f9f9f9; */
+}
+
+@font-face {
+  font-family: "Monatta";
+  src: url("Monatta.ttf") format("truetype");
 }
 
 .navbar {
   padding:0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif; 
+  /* font-family: 'Monatta'; */
+  font-weight: 400;
 
   text-decoration: none;
-  background-color:#F5E5D4;
+  /* background-color:#F5E5D4; */
+  background-color: #FEFCFB;
   color: #935100;
-}
+  height: 100px;
+  box-shadow: 1px 1px;
 
+}
 .navbar-name {
-  background-color: #D3B799;
+  font-family: 'Monatta';
+  /* background-color: #D3B799; */
+  background-color: #FEFCFB;
   padding: 10px 10px;
-  font-size: 26px;
+  font-size: 40px;
   letter-spacing: 3px;
   /* margin: 0px 30px; */
   position: static;
@@ -37,8 +50,9 @@ body {
 
 .navbar-nav li a {
   text-decoration: none;
-  color: #935100;
-  font-size: 16px;
+  /* color: #935100; */
+  color: #3f3f37;
+  font-size: 14px;
   letter-spacing: 4px;
   margin: 0px 30px;
 
@@ -70,8 +84,9 @@ body {
 }
 
 .about h1 {
-  color: #935100;
-  font-size: 60px;
+  /* color: #935100; */
+  color:  #3f3f37;
+  font-size: 50px;
 }
 
 .about h1.display-1::after {
@@ -88,11 +103,13 @@ body {
   font-size: 16px;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin-top: 40px;
 }
 
 .custom-font-title {
+  /* font-family: 'Montserrat'; */
+  /* color: #3f3f37 */
   font-family: 'Roboto';
+  /* font-family: 'Monatta'; */
   font-weight: 400;
 
 }
@@ -101,8 +118,9 @@ body {
 .project h1 {
   color: #935100;
   font-size: 60px;
-  margin-top: 20px;
 }
+
+
 .project h1.display-1::after {
   content: "";
   display: block;
@@ -111,9 +129,7 @@ body {
   height: 4px;
   margin-top: 10px;
 }
-.blog {
-  margin-top: -100px;
-}
+
 .btn-git {
   color: #935100;
   background-color: transparent;
@@ -125,21 +141,5 @@ body {
   background: #D3B799;
   border-color: #D3B799;
 }
-
-
-.creative h1 {
-  color: #935100;
-  font-size: 60px;
-}
-
-.creative h1.display-1::after {
-  content: "";
-  display: block;
-  background: #D3B799;
-  width: 275px;
-  height: 4px;
-  margin-top: 10px;
-}
-
 
 
