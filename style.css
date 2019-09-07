@@ -215,10 +215,20 @@ body {
   margin-top: 5px;
 }
 
+.creativer1 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
 .creative img {
   height: 350px;
 }
-.creative .mojave-photo {
+
+
+.creative .mojave {
+  width: 100%;
+}
+.creative .new-york, .gimmelwald, .iceland, .maine{
   width: 100%;
 }
 .creative h2 {
@@ -314,6 +324,30 @@ body {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+#creative-button {
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+.btn-creative {
+  color: #3f3f37;
+  background-color: transparent;
+  background-image: none;
+  border-color: #3f3f37;
+  font-family: "Montserrat";
+  font-weight: 400px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.btn-creative:hover {
+  /* background: #D3B799; */
+  border-color: #935100;
+  color: #935100;
+}
+
+
+
 
 /* FOOTER */
 #footer {
