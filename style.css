@@ -3,16 +3,7 @@ html {
 }
 
 body {
- /* background-image: url('img/me.JPG'); */
-  /* height: 100%;
-  background-position:center; */
-  /* background-repeat:no-repeat;
-  background-size: cover; */
-  /* background-color: #cccccc; */
-  /* background-color: #E8BE94; */
-  /* background-color: #F5E5D4; */
   background-color: #FEFCFB; 
-  /* background-color: #f9f9f9; */
 }
 
 @font-face {
@@ -80,17 +71,9 @@ body {
   color: #583000;
 }
 
-
 .navbar-collapse {
   padding: 10px 15px;
 }
-
-/* .navbar-divider {
-  border-color: #935100;
-  margin: 50px 0px;
-  border-width: 3px;
-  position: static;
-} */
 
 .picture {
   vertical-align: middle;
@@ -100,6 +83,8 @@ body {
   /* background-image: url("img/me.JPG"); */
 }
 
+
+/* ABOUT SECTION */
 .about h1 {
   /* color: #935100; */
   color:  #3f3f37;
@@ -146,6 +131,7 @@ body {
 }
 
 
+/* PROJECTS */
 
 .project h1 {
   color:  #3f3f37;
@@ -164,26 +150,45 @@ body {
   display: block;
   /* background: #935100; */
   background: #3f3f37;
-
   width: 185px;
   height: 1px;
   margin-top: 5px;
 }
 
+.project h4 {
+  color: #373737;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  
+}
+.project p {
+  color: #373737;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
+/* button for project */
 .btn-git {
-  color: #935100;
+  color: #3f3f37;
   background-color: transparent;
   background-image: none;
-  border-color: #935100;
+  border-color: #3f3f37;
+  font-family: "Montserrat";
+  font-weight: 400px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
-
 .btn-git:hover {
-  background: #D3B799;
-  border-color: #D3B799;
+  /* background: #D3B799; */
+  border-color: #935100;
+  color: #935100;
 }
 
-/* PROJECTS */
+/* CREATIVE */
 
 .creative h1 {
   /* color: #935100; */
@@ -198,18 +203,117 @@ body {
   letter-spacing: 5px;
 }
 
+
 .creative h1.display-1::after {
   content: "";
   display: block;
   /* background: #D3B799; */
   /* background: #935100; */
   background: #3f3f37;
-
   width: 160px;
   height: 1px;
   margin-top: 5px;
 }
 
+.creative img {
+  height: 350px;
+}
+.creative .mojave-photo {
+  width: 100%;
+}
+.creative h2 {
+  font-family: "Montserrat";
+  font-weight: 400px;
+  font-size: 25px;
+}
+.creative p {
+  font-family: "Monatta";
+  font-weight: 400px;
+  font-size: 30px;
+  color: #583000;
+}
+
+/* CREATIVE HOVER EFFECT */
+.creative .hover {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.creative .overlay {
+  
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.creative .hover:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.creative .hover img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.creative .hover:hover img {
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.creative .hover h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.creative .hover a, .hover p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.creative .hover:hover a, .hover:hover p, .hover:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
 
 /* FOOTER */
 #footer {
