@@ -212,6 +212,58 @@ body {
 
 
 /* FOOTER */
-/* #footer {
-  background: 
-} */
+#footer {
+  /* background: #C1853D; */
+  background: #E0CEB7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .social-media {
+  width: 100%;
+}
+
+#footer .social-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .social-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .social-media ul li a {
+  font-size: 24px;
+  color: #999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+#footer .social-media ul li a:hover {
+  color: #935100;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+
+/* Contact Footer */
+#footer p {
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #3f3f37;
+  margin-top: 0;
+  text-transform: uppercase;
+}
