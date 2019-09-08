@@ -4,6 +4,8 @@ html {
 
 body {
   background-color: #FEFCFB; 
+  /* background: url('img/shadow.jpg'); */
+  
 }
 
 @font-face {
@@ -85,7 +87,29 @@ body {
 
 
 /* ABOUT SECTION */
+
+/* #about .container {
+  background: url('img/shadow.jpg');
+  /* background-color: black; */
+
+#about {
+  background: url('img/shadow.jpg');
+  margin-top: 40px;
+}
+#about .container {
+  /* background: url('img/shadow.jpg'); */
+  background-color: #E0CEB7;
+  opacity: .8;
+}
+#about img {
+  max-width: 30%;
+  max-height: auto;
+  z-index: -5;
+
+}
+
 .about h1 {
+  padding-left: 15px;
   /* color: #935100; */
   color:  #3f3f37;
   font-size: 30px;
@@ -132,8 +156,11 @@ body {
 
 
 /* PROJECTS */
-
+/* #project  {
+  background-color: #FEFCFB; 
+} */
 .project h1 {
+  /* background-color: #FEFCFB;  */
   color:  #3f3f37;
   font-size: 30px;
   font-family: 'Montserrat';
@@ -196,6 +223,7 @@ body {
   font-size: 30px;
   font-family: 'Montserrat';
   font-weight: 400;
+  padding-left: 15px;
 }
 .creative h1::first-letter {
   font-family: 'Monatta';
@@ -243,6 +271,7 @@ body {
   color: #583000;
 }
 
+
 /* CREATIVE HOVER EFFECT */
 .creative .hover {
   width: 100%;
@@ -253,6 +282,7 @@ body {
   text-align: center;
   cursor: default;
 }
+
 
 .creative .overlay {
   
@@ -329,6 +359,15 @@ body {
   text-align: center;
   padding-bottom: 20px;
 
+}
+
+#creative {
+  background: #E0CEB7;
+  height: auto; 
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+  
 }
 .btn-creative {
   color: #3f3f37;
