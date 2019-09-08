@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Monatta";
+    src: url("Monatta.ttf") format("truetype");
+  }
+.navbar-nav {
+    text-decoration: none;
+  }
+  
+.navbar-nav li a {
+text-decoration: none;
+/* color: #935100; */
+color: #3f3f37;
+font-size: 10px;
+letter-spacing: 4px;
+margin: 0px 40px;
+}
+
+/* SELF PORTRAIT */
+.self-portrait img {
+    object-position: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 0px;
+    display: block;
+    max-width:60%;
+    max-height:auto;
+    width: auto;
+    height: auto;
+}
+
+#description h3 {
+    color:  #3f3f37;
+    font-size: 30px;
+    font-family: 'Monatta';
+    text-align: center;
+    letter-spacing: .2em;
+    position: relative;
+    margin-top: -80px;
+    z-index: 5;
+}
+#description p {
+    color:  #3f3f37;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .2em;
+    position: relative;
+    z-index: 5;
+    /* padding-bottom: 5px;
+    padding-top: 15px; */
+}
+
+
+.gimmelwald img {
+    object-position: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 0px;
+    display: block;
+    max-width:40%;
+    max-height:auto;
+    width: auto;
+    height: auto;
+}
+#description p {
+    padding-top: -100px;
+}
